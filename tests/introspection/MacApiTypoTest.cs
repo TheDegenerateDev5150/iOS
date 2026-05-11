@@ -7,7 +7,6 @@ namespace Introspection {
 	public class MacApiTypoTest : ApiTypoTest {
 		NSSpellChecker? checker;
 
-		[Test]
 		public override void TypoTest ()
 		{
 			AssertMatchingOSVersionAndSdkVersion ();

@@ -16,7 +16,6 @@ namespace Introspection {
 			return txt.Substring ((int) typoRange.Location, (int) typoRange.Length);
 		}
 
-		[Test]
 		public override void TypoTest ()
 		{
 			// the dictionary used by iOS varies with versions and
